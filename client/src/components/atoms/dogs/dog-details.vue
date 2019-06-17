@@ -6,6 +6,7 @@
 </template>
 
 <script>
+  import axios from 'axios'
   export default {
     name: 'atoms-dog-details',
     props: ['item']

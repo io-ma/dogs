@@ -1,6 +1,5 @@
 <template>
   <li class="dog" :item="item">
-    <h4 class="dog__title">Dogs</h4>
     <atoms-dog-details :item="item">
     </atoms-dog-details>
 </li>

@@ -1,9 +1,9 @@
 <template>
   <div class="dogs">
     <h3 class="dogs__title">Show dogs</h3>
-    <button @click="loadDogs" class="dogs__button">DOGS</button>
+    <button @click="loadDogs" class="dogs__button">NEXT</button>
     <ul class="dogs__ul">
-      <molecules-dog :item="item">
+      <molecules-dog :item="dogs">
       </molecules-dog>
     </ul>
   </div>
