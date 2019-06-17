@@ -8,7 +8,11 @@ After the packages have been installed, you can now run both the client and the 
 * To start the client, open a separate command line window, cd to the client and run `npm run start`
 * You can start both the client and server running `npm run dev`
 
+### Login info: 
+user: dogs
+pass: Thisisfun10
+
 ### Stack used
 I used Node.js + Express for the backend, Vue.js, Vuex, Sass and TailwindCSS for the frontend
-
+Authentication done thanks to Auth0
 
