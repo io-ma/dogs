@@ -1,14 +1,16 @@
 <template>
 <nav class="atoms-nav" role="navigation">
-  <router-link tag="li" class="atoms-nav__link" to="/" role="listitem"><a>HOME</a></router-link>
-  <router-link tag="li" class="atoms-nav__link" to="/inspiration" role="listitem"><a>INSPIRATION</a></router-link>
-  <router-link v-if="isAuthenticated" tag="li" class="atoms-nav__link" to="/dogs" role="listitem"><a>DOGS</a></router-link>
-  <li class="atoms-nav__link" v-if="!isAuthenticated" role="listitem">
-    <a href="#" @click.prevent="login">LOGIN</a>
-  </li>
-  <li class="atoms-nav__link" v-if="isAuthenticated" role="listitem">
-    <a href="#" @click.prevent="logout">LOG OUT</a>
-  </li>
+  <ul class="atoms-nav__list" role="list">
+    <router-link tag="li" class="atoms-nav__link" to="/" role="listitem"><a>HOME</a></router-link>
+    <router-link tag="li" class="atoms-nav__link" to="/inspiration" role="listitem"><a>INSPIRATION</a></router-link>
+    <router-link v-if="isAuthenticated" tag="li" class="atoms-nav__link" to="/dogs" role="listitem"><a>DOGS</a></router-link>
+    <li class="atoms-nav__link" v-if="!isAuthenticated" role="listitem">
+      <a href="#" @click.prevent="login">LOGIN</a>
+    </li>
+    <li class="atoms-nav__link" v-if="isAuthenticated" role="listitem">
+      <a href="#" @click.prevent="logout">LOG OUT</a>
+    </li>
+  </ul>
 </nav>
 </template>
 
@@ -48,7 +50,9 @@
     @apply flex flex-wrap justify-center
     @apply p-8
     @apply font-bold
-    list-style-type: none
+    &__list
+      @apply flex flex-wrap
+      list-style-type: none
     &__link a
       @apply text-grey-dark
       @apply mr-4
