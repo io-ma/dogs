@@ -1,5 +1,5 @@
 <template>
-<nav class="atoms-nav">
+<nav class="atoms-nav" role="navigation">
   <router-link tag="li" class="atoms-nav__link" to="/"><a>HOME</a></router-link>
   <router-link tag="li" class="atoms-nav__link" to="/inspiration"><a>INSPIRATION</a></router-link>
   <router-link v-if="isAuthenticated" tag="li" class="atoms-nav__link" to="/dogs"><a>DOGS</a></router-link>

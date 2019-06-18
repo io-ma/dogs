@@ -1,5 +1,5 @@
 <template>
-  <header class="header">
+  <header class="header" role="banner">
     <div class="header__brand">
       <app-logo></app-logo>
       <app-heading></app-heading>
