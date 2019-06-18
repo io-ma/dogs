@@ -1,5 +1,5 @@
 <template>
-  <h1 class="app-heading" role="heading">DOGS</h1>
+  <h1 class="app-heading">DOGS</h1>
 </template>
 
 <script>

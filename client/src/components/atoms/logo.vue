@@ -1,5 +1,5 @@
 <template>
-  <img class="logo" src="@/assets/dog-logo.png">
+  <img class="logo" src="@/assets/dog-logo.png" alt="logo">
 </template>
 
 <script>
