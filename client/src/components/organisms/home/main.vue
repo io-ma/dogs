@@ -27,7 +27,7 @@
   .main
     @apply flex flex-col
     @apply w-3/4
-    @apply p-12 mx-auto my-0
+    @apply p-12 mx-auto my-8
     @apply bg-grey-lightest
     box-sizing: border-box
     &__title

@@ -2,10 +2,8 @@
   <div class="dogs">
     <h3 class="dogs__title">Show dogs</h3>
     <button @click="loadDogs" class="dogs__button">NEXT</button>
-    <ul class="dogs__ul">
-      <molecules-dog :item="dogs">
-      </molecules-dog>
-    </ul>
+    <molecules-dog :item="dogs">
+    </molecules-dog>
   </div>
 </template>
 
@@ -44,8 +42,4 @@
       @apply bg-grey-light
       @apply border border-grey-darker rounded-sm
       @apply w-1/5
-    &__ul
-      @apply mx-4
-      @apply flex flex-col
-      list-style-type: none 
 </style>

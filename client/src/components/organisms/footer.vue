@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer">
+  <footer class="footer" role="contentinfo">
     <span class="footer__copyright">&copy; Dogs</span>
   </footer>
 </template>

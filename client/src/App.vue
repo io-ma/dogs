@@ -54,6 +54,7 @@
     line-height: 1.7
   .app-main
     @apply flex flex-col
+    width: 95%
     flex: 1
   .server-status 
     @apply w-3/4

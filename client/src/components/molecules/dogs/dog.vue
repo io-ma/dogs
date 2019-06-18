@@ -1,8 +1,6 @@
 <template>
-  <li class="dog" :item="item">
-    <atoms-dog-details :item="item">
-    </atoms-dog-details>
-</li>
+  <atoms-dog-details :item="item">
+  </atoms-dog-details>
 </template>
 
 <script>
@@ -17,8 +15,4 @@
 </script>
 
 <style scoped lang="sass">
-  .dog
-    @apply mx-4
-    @apply flex flex-col
-    list-style-type: none 
 </style>
