@@ -1,5 +1,5 @@
 <template>
-  <h1 class="header" role="heading">Dogs and inspiration</h1>
+  <h1 class="header" role="heading">Articles on dogs</h1>
 </template>
 
 <script>
