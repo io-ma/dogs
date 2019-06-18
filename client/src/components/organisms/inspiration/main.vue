@@ -3,13 +3,13 @@
     <article class="main__article" role="presentation">
       <section class="main__item" role="region">
         <div class="main__card">
-          <h2 class="main__title" role="heading">List of books</h2>
+          <h2 class="main__title" role="heading">Books on dogs</h2>
             <molecules-book v-for="book in books" :item="book" :key="book.id"></molecules-book>
         </div>
       </section>
       <section class="main__item" role="region">
         <div class="main__card">
-          <h2 class="main__title" role="heading">List of songs</h2>
+          <h2 class="main__title" role="heading">Songs dogs love</h2>
             <molecules-song v-for="song in songs" :item="song" :key="song.id"></molecules-song>
         </div>
       </section>

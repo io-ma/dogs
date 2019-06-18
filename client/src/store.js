@@ -9,15 +9,15 @@ export default new Vuex.Store({
     booksList: [
       {
         id: 1,
-        title: 'Les Fleurs du Mal',
-        author: 'Charles Baudelaire',
-        main_idea: 'We truely get to know the world surrounding us if we accept the existence of both good and evil.'
+        title: 'Born to Bark',
+        author: 'Stanley Coren',
+        main_idea: 'Coren goes into historical detail explaining to his wife, Joan, that "terriers are bred to bark.'
       },
       {
         id: 2,
-        title: 'The Hidden Life of Trees: What They Feel, How They Communicate—Discoveries from A Secret World',
-        author: 'Peter Wohlleben',
-        main_idea: 'Trees are more complex that it was initially thought.'
+        title: 'How Dogs Love Us',
+        author: 'Gregory Berns',
+        main_idea: 'Neuroscientist Gregory Berns is on a quest: to find out if his dogs truly feel love.'
       }
     ],
     songsList: [
