@@ -64,10 +64,10 @@
   .server-status.deactive 
     @apply bg-red-lightest
     @apply border-red-lighter
-    @apply text-red
+    @apply text-red-darkest
       
   .server-status.active
     @apply bg-green-lightest
     @apply border-green-lighter
-    @apply text-green
+    @apply text-green-darkest
 </style>

@@ -54,11 +54,11 @@
       @apply flex flex-wrap
       list-style-type: none
     &__link a
-      @apply text-grey-dark
+      @apply text-grey-darkest
       @apply mr-4
       @apply no-underline
     &__link a:visited
-      @apply text-grey-dark
+      @apply text-grey-darkest
     &__link a:hover
       @apply text-black
       @apply cursor-pointer

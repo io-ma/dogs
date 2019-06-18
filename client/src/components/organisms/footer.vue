@@ -15,7 +15,7 @@
     @apply w-full
     @apply p-8
     @apply bg-grey-light
-    @apply text-center text-grey-darker
+    @apply text-center text-grey-darkest
     height: 15vh
     box-sizing: border-box
 </style>

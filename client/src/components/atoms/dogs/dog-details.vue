@@ -1,13 +1,23 @@
 <template>
   <div class="dog-details">
-    <img :src="item" class="dog-details__image"/>
+    <img :src="url" class="dog-details__image" alt="dog"/>
   </div>
 </template>
 
 <script>
   export default {
     name: 'atoms-dog-details',
-    props: ['item']
+    props: ['item'],
+    computed: {
+      url() {
+        if (this.item.includes("https")) {
+          return this.item
+        }else {
+          return "img/dog-logo.6e13b6c4.png"
+        }
+
+      }
+    }
   }
 </script>
 
