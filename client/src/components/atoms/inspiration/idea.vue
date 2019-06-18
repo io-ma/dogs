@@ -1,6 +1,6 @@
 <template>
-  <section class="title">
-    <h3>Idea:</h3>
+  <section class="title" role="region">
+    <h3 role="heading">Idea:</h3>
     <p>{{ item.main_idea }}</p>
   </section>
 </template>

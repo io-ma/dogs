@@ -1,8 +1,8 @@
 <template>
-  <article class="song">
+  <section class="song" role="region">
     <atoms-title :item="item"></atoms-title>
     <atoms-artist :item="item"></atoms-artist>
-  </article>
+  </section>
 </template>
 
 <script>

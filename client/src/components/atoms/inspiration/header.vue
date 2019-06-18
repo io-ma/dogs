@@ -1,5 +1,5 @@
 <template>
-    <h1 class="header">Inspiring books & music</h1>
+    <h1 class="header" role="heading">Inspiring books & music</h1>
 </template>
 
 <script>

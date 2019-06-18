@@ -1,9 +1,9 @@
 <template>
-  <article class="book">
+  <section class="book" role="region">
     <atoms-title :item="item"></atoms-title>
     <atoms-author :item="item"></atoms-author>
     <atoms-idea :item="item"></atoms-idea>
-  </article>
+  </section>
 </template>
 
 <script>

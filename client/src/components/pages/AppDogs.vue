@@ -1,7 +1,7 @@
 <template>
   <div class="dogs">
-    <h3 class="dogs__title">Show dogs</h3>
-    <button @click="loadDogs" class="dogs__button">NEXT</button>
+    <label for="next" class="dogs__label">SHOW DOGS</label>
+    <button @click="loadDogs" name="next" class="dogs__button" role="button">NEXT</button>
     <molecules-dog :item="dogs">
     </molecules-dog>
   </div>
@@ -33,9 +33,10 @@
     @apply p-4 mx-auto my-4
     @apply bg-grey-lightest
     box-sizing: border-box
-    &__title
+    &__label
       @apply self-center
       @apply m-4
+      @apply text-xl font-bold
     &__button
       @apply self-center
       @apply m-8 p-4

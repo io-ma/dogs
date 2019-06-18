@@ -1,19 +1,19 @@
 <template>
-  <main class="main">
-    <ul class="main__list">
-      <li class="main__item">
+  <main class="main" role="main">
+    <article class="main__article" role="presentation">
+      <section class="main__item" role="region">
         <div class="main__card">
-          <h2 class="main__title">List of books</h2>
+          <h2 class="main__title" role="heading">List of books</h2>
             <molecules-book v-for="book in books" :item="book" :key="book.id"></molecules-book>
         </div>
-      </li>
-      <li class="main__item">
+      </section>
+      <section class="main__item" role="region">
         <div class="main__card">
-          <h2 class="main__title">List of songs</h2>
+          <h2 class="main__title" role="heading">List of songs</h2>
             <molecules-song v-for="song in songs" :item="song" :key="song.id"></molecules-song>
         </div>
-      </li>
-    </ul>
+      </section>
+    </article>
   </main>
 </template>
 
@@ -43,7 +43,7 @@
     &__title
       @apply m-8
       @apply text-center
-    &__list
+    &__article
       @apply flex flex-wrap
       @apply w-full
       @apply p-0

@@ -1,12 +1,12 @@
 <template>
 <nav class="atoms-nav" role="navigation">
-  <router-link tag="li" class="atoms-nav__link" to="/"><a>HOME</a></router-link>
-  <router-link tag="li" class="atoms-nav__link" to="/inspiration"><a>INSPIRATION</a></router-link>
-  <router-link v-if="isAuthenticated" tag="li" class="atoms-nav__link" to="/dogs"><a>DOGS</a></router-link>
-  <li class="atoms-nav__link" v-if="!isAuthenticated">
+  <router-link tag="li" class="atoms-nav__link" to="/" role="listitem"><a>HOME</a></router-link>
+  <router-link tag="li" class="atoms-nav__link" to="/inspiration" role="listitem"><a>INSPIRATION</a></router-link>
+  <router-link v-if="isAuthenticated" tag="li" class="atoms-nav__link" to="/dogs" role="listitem"><a>DOGS</a></router-link>
+  <li class="atoms-nav__link" v-if="!isAuthenticated" role="listitem">
     <a href="#" @click.prevent="login">LOGIN</a>
   </li>
-  <li class="atoms-nav__link" v-if="isAuthenticated">
+  <li class="atoms-nav__link" v-if="isAuthenticated" role="listitem">
     <a href="#" @click.prevent="logout">LOG OUT</a>
   </li>
 </nav>

@@ -1,19 +1,19 @@
 <template>
-  <main class="main">
-    <div class="main__card">
-      <h2 class="main__title">First title</h2>
-      <section class="main__section">
+  <main class="main" role="main">
+    <article class="main__card" role="article">
+      <h2 class="main__title" role="heading">First title</h2>
+      <section class="main__section" role="region">
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         </p>
       </section>
-    </div>
-    <div class="main__card">
+    </article>
+    <article class="main__card" role="article">
       <h2 class="main__title">Second title</h2>
-      <section class="main__section">
+      <section class="main__section" role="region">
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         </p>
       </section>
-    </div>
+    </article>
   </main>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
-  <section class="artist">
-    <h3>Artist:</h3>
+  <section class="artist" role="region">
+    <h3 role="heading">Artist:</h3>
     <p>{{ item.artist }}</p>
   </section>
 </template>
