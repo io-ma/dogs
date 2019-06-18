@@ -31,7 +31,6 @@
     @apply flex flex-col
     @apply w-full
     @apply p-4 mx-auto my-4
-    @apply bg-grey-lightest
     box-sizing: border-box
     &__label
       @apply self-center
@@ -39,8 +38,7 @@
       @apply text-xl font-bold
     &__button
       @apply self-center
-      @apply m-8 p-4
+      @apply m-8 px-8 py-4
       @apply bg-grey-light
       @apply border border-grey-darker rounded-sm
-      @apply w-1/5
 </style>

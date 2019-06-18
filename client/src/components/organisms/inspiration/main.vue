@@ -38,7 +38,6 @@
     @apply flex flex-wrap
     @apply w-full
     @apply p-8 mb-8
-    @apply bg-grey-lightest
     box-sizing: border-box
     &__title
       @apply m-8

@@ -1,6 +1,6 @@
 <template>
   <section class="title" role="region">
-    <h3 role+"heading">Title:</h3>
+    <h3 role="heading">Title:</h3>
     <p>{{ item.title }}</p>
   </section>
 </template>

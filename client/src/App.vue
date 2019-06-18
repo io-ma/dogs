@@ -5,7 +5,7 @@
       <div class="server-status" :class="{active: serverActive, deactive: !serverActive}">
         {{serverInformation}}
       </div>
-      <router-view image="user.png"></router-view>
+      <router-view></router-view>
     </main>
     <organisms-footer></organisms-footer>
   </div>
@@ -54,10 +54,9 @@
     line-height: 1.7
   .app-main
     @apply flex flex-col
-    width: 95%
+    max-width: 95% 
     flex: 1
   .server-status 
-    @apply w-3/4
     @apply mx-auto my-10 p-3
     @apply border border-solid rounded-sm
     @apply text-base text-center
