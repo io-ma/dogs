@@ -32,7 +32,7 @@ export default new Vuex.Store({
         artist: 'CloZee'
       }
     ],
-    dogs: []
+    dogs: "img/dog-logo.6e13b6c4.png"
   },
 
   getters: {
