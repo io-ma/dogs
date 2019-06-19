@@ -10,10 +10,10 @@
     props: ['item'],
     computed: {
       url() {
-        if (this.item.includes("https")) {
-          return this.item
-        }else {
+        if (typeof this.item === 'object') {
           return "img/dog-logo.6e13b6c4.png"
+        }else {
+          return this.item
         }
 
       }
